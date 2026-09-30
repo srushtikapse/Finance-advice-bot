@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+}
+
+.navbar {
+    background-color: #0f172a;
+    color: white;
+    padding: 16px 24px;
+}
+
+.nav-brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 28px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.card h1 {
+    color: #16a34a;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
