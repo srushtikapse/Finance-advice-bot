@@ -1,0 +1,18 @@
+# Never commit your real secrets file
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment folder
+venv/
+env/
+
+# Database file (each dev/deployment can generate their own)
+*.db
+
+# Editor/OS junk files
+.vscode/
+.idea/
+.DS_Store
